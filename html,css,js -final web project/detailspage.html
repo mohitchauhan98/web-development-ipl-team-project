@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPL TEAMS</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./detailspage.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+      <nav>
+
+        <div id="topbar">
+            <a class="top-text" href="./index.html"> Teams </a>
+            <a class="top-text" href="./detailspage.html"> Details </a>
+            <input class="search-box" type="search" placeholder="Search..." />
+        </div>
+        <img id="IPL-logo" src="./ipl logo.jpg" alt="Ipl logo" />
+    </nav>
+</header>  
+         <button class="add-btn">Add Player</button>
+ 
+    <form id="form">
+     <input id="player-name" type="text" placeholder="Enter Player Name here...">
+     <input id="player-image" type="text" placeholder="Upload Player Image here...">
+     <input id="player-price" type="text" placeholder="Enter Player Price here...">
+     <input id="add-player" class="add-item-btn" type="submit" value="Add Item">
+    </form>
+
+
+    <div class = "team-container">
+        <div>
+            
+            <img class = "team-img"/>
+            <h1 class = "team-name"></h1>
+        </div>
+
+        <div class = "team-text">
+            <h3> Total Players : <span class = "player-count "></span></h3>
+            <h3> Top Batsman : <span class = "top-batsman "></span></h3>
+            <h3> Top Bowler : <span class = "top-bowler "></span></h3>
+            <h3> Total Matches Won : <span class = "matches-won"></span></h3>
+        </div>
+
+    </div>
+
+    <div class = "player-card"></div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./detailspage.js"> </script>
+
+
+
+
+
+
+
+
+
+
+</body>

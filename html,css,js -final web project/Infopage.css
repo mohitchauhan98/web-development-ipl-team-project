@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+
+body{
+    background-color:  #ffd9b3;
+}
+
+.image-wrapper{
+    margin-top:-30px;
+    width:300px;
+    height:360px;
+    padding:80px;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px solid transparent;
+    background-color: #ffd9b3;
+}
+
+.pic{
+    margin-top:-50px;
+    width:100%;
+    border-radius: 50%;
+   
+}
+
+.text-wrapper{
+    margin-top:-165px;
+    text-align:center;
+    font-family: 'Raleway', sans-serif;
+     
+}
+
+.name{
+    font-size:24px;
+    margin-bottom: 8px; 
+}
+
+.team{
+    font-size: 20px;
+    margin-bottom: 8px; 
+}
+
+.price{
+    font-size:18px;
+    font-weight: 600;
+    margin-bottom: 8px; 
+    color:brown
+}
+
+.status{
+    font-size:18px;
+    font-weight: 600;
+    margin-bottom: 8px; 
+    color:brown
+}
+
+.role{
+    font-size:18px;
+    font-weight: 600;
+    margin-bottom: 8px; 
+    color:blue 
+}
